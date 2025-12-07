@@ -1,0 +1,49 @@
+:root {
+    --maroon: #7b1f2b;
+    --maroon-soft: #9a4a54;
+    --soft-bg: #f8f9fa;
+}
+
+body.bg-soft {
+    background-color: var(--soft-bg);
+    min-height: 100vh;
+}
+
+.maroon {
+    color: var(--maroon);
+}
+
+.btn-maroon {
+    background-color: var(--maroon);
+    border-color: var(--maroon);
+    color: white;
+}
+
+.btn-maroon:hover {
+    background-color: var(--maroon-soft);
+    border-color: var(--maroon-soft);
+}
+
+.btn-outline-maroon {
+    border-color: var(--maroon);
+    color: var(--maroon);
+}
+
+.btn-outline-maroon:hover {
+    background-color: var(--maroon);
+    border-color: var(--maroon);
+    color: white;
+}
+
+.navbar-brand.maroon {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+/* Card styling */
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+/* Remove the test styles from index.html after confirming it works */
